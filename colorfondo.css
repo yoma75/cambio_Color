@@ -1,0 +1,41 @@
+body {
+    margin:  0;
+    padding:  0;
+    background: gray;
+}
+
+.box {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 5px;
+    background: white;
+}
+
+.box a {
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-indent: -9999px; /*desaparece el texto de los colores*/
+    margin: 5px;
+    cursor: pointer;
+}
+
+#red {
+    background: #FF2819;
+}
+#blue {
+    background: #462EEB;
+}
+#green {
+    background: #90FF34;
+}
+#gray {
+    background: #796780;
+}
+#yellow {
+    background: #FFF82C;
+}
+#orange {
+    background: #FFBF1B;
+}
